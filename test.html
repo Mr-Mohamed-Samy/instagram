@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instagram</title>
+    <link rel="icon" href="instagram.png">
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .cont{
+            height: 500px;
+            width: 320px;
+            margin-top: 30px ;
+            margin-left: 30px;
+            margin-bottom: 10px;
+            margin-right: 400px ;
+        }
+        .container{
+            border: 1px groove rgb(201, 199, 199);
+            height: 440px;
+            width: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .instagram{
+            height: 70px;
+            width: 200px;
+            margin-bottom: 30px;
+        }
+        .text{
+            border: 1px groove rgb(201, 199, 199);
+            width: 250px;
+            height: 30px;
+        }
+        .password{
+            border: 1px groove rgb(201, 199, 199);
+            width: 250px;
+            height: 30px;
+        }
+        .button{
+            width: 250px;
+            border-radius: 5px;
+            border: 1px groove rgb(201, 199, 199);
+            background-color: rgba(0, 149, 246);
+            color: white;
+            height: 30px;
+            margin-top: 5px;
+            cursor: pointer;
+        }
+        .facebook{
+            color: darkblue;
+            font-size: 15px;
+            text-decoration: none;
+        }
+        .facebook:hover{
+            cursor: pointer;
+            color: black;
+        }
+        .forgot{
+            color: darkblue;
+            font-size: 13px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .forgot:hover{
+            cursor: pointer;
+            color: black;
+        }
+        .img{
+            height:18px;
+            margin-right: 3px;
+        }
+        .container2{
+            height: 50px;
+            width: 320px;
+            border: 1px groove rgb(201, 199, 199);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;            
+        }
+        .sign:hover{
+            cursor: pointer;
+            color: rgb(3, 106, 174);
+            text-decoration: none;
+        }
+        .img2{
+            height: 550px;
+            margin-left: 350px;
+            width:600px;
+        }
+        .up{
+            text-decoration: none;
+            color: rgba(0, 149, 246);
+        }
+    </style>
+</head>
+<body>
+    <img src="img2.png" class="img2">
+    <div class="cont">
+    <div class="container">
+       <img src="img1.png" class="instagram">
+        <input type="text" placeholder="  phone.number, user name or e-mail" class="text" required>
+        <input type="password" placeholder="  password" class="password" required>
+        <a href="instagram.html">
+        <button class="button">
+            Log in
+        </button>
+        </a>
+        <p class="or">
+    ____________ Or____________
+        </p>
+        <a href="#" class="facebook">
+            <img src="face.png" class="img">
+            Log in with Facebook
+        </a>
+        <a href="#" class="forgot">
+            Forgot password ?
+        </a>
+    </div>
+    <span class="container2">
+        You don't have an account ? 
+         <a href="#" class="up">
+       <p class="sign">
+        Sign up
+       </p> 
+        </a>
+    </span>
+    </div>
+</body>
+</html>
